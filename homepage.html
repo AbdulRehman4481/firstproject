@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BootStrap 5.3.0 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!-- toastify css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/style/home.css">
+
+    <title>JavaScript-3</title>
+</head>
+
+<body>
+    <header class="bg-dark text-white">
+        <h1>Home Page</h1>
+    </header>
+    <main>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Input</h2>
+                    <div class="box border border-dark rounded p-4">
+                        <div class="input-group flex-nowrap p-2">
+                            <input type="text" class="form-control" placeholder="input" aria-label="Username"
+                                aria-describedby="addon-wrapping" id="input">
+                            <button type="button" class="border border-Tertiary rounded" id="clearinput">Clear</button>
+                           <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col text-center">
+                    <h2>Cities</h2>
+                    <div class="box1 border border-dark rounded p-4 text-center">
+                        1) Faisalbad &emsp; 2) Lahore &emsp; 3)Karachi &emsp; 4)Islamabad &emsp; 5)Burewala &emsp;
+                        6)Sheikhupura
+                        &emsp; 7)Kashmir
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center mt-4">
+                    <h2>Buttons</h2>
+                    <div class="box2 border border-dark rounded p-5 text-center">
+                        <button type="button" class="btn btn-primary mt-2" onclick="pac()">Print All City </button>
+                        <button type="button" class="btn btn-primary mt-2" onclick="acil()">Add City in List</button>
+                        <button type="button" class="btn btn-primary mt-2" onclick="cycil()">Check Your City in
+                            List</button>
+                    </div>
+                </div>
+                <div class="col text-center mt-4">
+                    <h2>Output/Result</h2>
+                    <div class="box2 border border-dark rounded p-5 text-center">
+                        <div id="output" class=""></div>
+                    </div>
+                    <button type="button" class="btn btn-outline-success mt-2" id="clear">Clear Output</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark">
+        <div class="container text-center text-white ">
+            <div class="row">
+                <div class="col">
+                    <p>
+                        &copy; <span id="footeryear"></span>. All RIghts are Reseved.Abdul Rehman
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JS -->
+
+    <script src="/js/index.js"></script>
+    <!-- toastify js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <!-- BootStrap 5.3.0 -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

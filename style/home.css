@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background-color: #adb5bd; */
+
+}
+
+main {
+
+    flex: 1 0 auto;
+}
+
+.box1 {
+    background-color: #1d3557;
+    color: white;
+    font-size: 30px;
+}
+
